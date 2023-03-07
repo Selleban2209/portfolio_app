@@ -1,0 +1,145 @@
+ <ul className='header-menu-list'>
+                    {contacts.map((nav,index) => (
+                    <li key={nav.id} className='header-li' style={index === contacts.length -1 ? {paddingTop:4} :  {padding:0}} >  
+                    
+
+                    <a href={`${nav.id}`}><img  src = {nav.img} alt= "tittelbilde" className='header-contacs-img' style={index === contacts.length -1 ? {height:55, width:55} :  {padding:0}}/></a>
+                    </li>
+
+                    ))}
+                </ul>
+
+
+
+-----------------------------------------------------
+
+
+const [toggleMenu, setToggleMenu] = useState(false);
+    return ( 
+
+        <div className='header-navbar'>
+            <div className='header-logo-div'>
+                <a className='header-logo'>PlaceholderLogo</a>
+            </div>
+            <div className='header-navbar-div'>
+                <ul className='header-menu-list'>
+                    {contacts.map((nav,index) => (
+                    <li key={nav.id} className='header-li' style={index === contacts.length -1 ? {paddingTop:4} :  {padding:0}} >  
+                    
+
+                    <a href={`${nav.id}`}><img  src = {nav.img} alt= "tittelbilde" className='header-contacs-img' style={index === contacts.length -1 ? {height:55, width:55} :  {padding:0}}/></a>
+                    </li>
+
+                    ))}
+                </ul>
+
+            <div className='header-menu-navbar'>
+            {toggleMenu
+          ? <MdClose color="#fff" size={27} onClick={() => setToggleMenu(false)} />
+          : <MdMenu color="#fff" size={27} onClick={() => setToggleMenu(true)} />}
+
+                {toggleMenu && (
+
+                <ul className='header-menu-navbar-list'>
+                    {contacts.map((nav,index) => (
+                    <li key={nav.id} className='header-navbar-list' style={index === contacts.length -1 ? {marginBottom:10} :  {marginBottom:4}} >  
+                    
+
+                    <a href={`${nav.id}`}>{nav.title}</a>
+                    </li>
+
+                    ))}
+                </ul>
+
+
+                )}
+              </div>
+
+            </div>
+</div>
+
+
+
+
+
+
+
+
+------------------------------------------------------------
+
+
+ useEffect  (() => {
+
+        const canvas  = canvasRef.current;
+        
+        if(!canvas)return;
+
+        const context = canvas.getContext('2d');
+
+        if(!context)return;
+        
+
+       // context.fillStyle = 'red';
+
+     //   context.fillRect(0,0,100,100);
+       // context.strokeRect(100,100,50,50);
+
+       const camera = new pc.Entity('camera');
+
+        
+    }
+    
+    
+    , []);
+----------------------------------
+//const canvasRef  = useRef<HTMLCanvasElement | null >(null);
+    const [hovered, setHover] = useState(false);
+    const [active, setActive] = useState(false);
+    const geometry = new THREE.BoxGeometry(2  , 2, 2);
+    const material = new THREE.MeshStandardMaterial( { color: 0xffff00 } );
+    const boxRef = new THREE.Mesh( geometry, material );
+    
+    useFrame( (state, delta)=> {
+        if(!boxRef.current){
+            return;
+        }
+        boxRef.current.rotation.x += 0.0005;
+        boxRef.current.rotation.y += 0.001;
+        boxRef.scale.x = 1000;
+
+        });
+    
+    
+    return (
+       
+            <mesh ref={boxRef} 
+            scale={active ? 2 : 1}
+            onClick={(event) => setActive(!active)}
+            onPointerOver={(event) => setHover(true)}
+            onPointerOut={(event) => setHover(false)}
+
+            
+            >
+                <boxGeometry args={[1,1,1]}/>
+                <meshStandardMaterial color={hovered ? 'hotpink' : 'orange'} />
+            </mesh>
+            );
+
+
+
+
+export default function Box (){
+
+ return ( 
+    
+    <div className="canvas-box section__padding">
+    <Canvas className="test">
+        
+        <ambientLight/>
+        <pointLight position= {[5,5,5]}/>
+        
+        <Cube position={[-1.2, 1 , -1]}/>
+    </Canvas>
+    </div>
+    
+};

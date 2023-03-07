@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500&display=swap');
+:root {
+  --font-base: 'Cormorant Upright', serif;
+  --font-alt: 'Open Sans', sans-serif;
+  --font-family: 'Exo', sans-serif;
+  --font-primary: 'Manrope', sans-serif;
+  /*https://fonts.google.com/?query=exo*/
+  --gradient-text: linear-gradient(90deg, rgba(117, 0, 117, 1) 0%, rgba(111, 93, 193, 1) 46%, rgba(201, 205, 233, 1) 100%);
+  --gradient-textG:linear-gradient(90deg, rgba(227, 215, 227, 1) 1%, rgba(148, 145, 153, 1) 25%);
+  --gradient-button:linear-gradient(90deg, rgba(0, 255, 235, 1) 0%, rgba(7, 58, 187, 1) 100%);
+  --gradient-bar :linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%);
+
+  --color-lightblue:#81AFDD;
+  --color-purple: rgb(117, 117, 219);
+  --color-golden: #DCCA87;
+  --color-black: #0C0C0C;
+  --color-gray: #545454;
+  --color-crimson: #F5EFDB;
+  --color-grey: #AAAAAA;
+  --color-white: #FFFFFF;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

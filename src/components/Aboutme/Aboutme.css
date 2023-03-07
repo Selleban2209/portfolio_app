@@ -1,0 +1,86 @@
+.ferdigheter-container {
+
+    display: flex;
+    flex-direction: column;
+    position: relative;
+   /* background: transparent radial-gradient(at calc(var(--mouse-x) * 100%) calc(var(--mouse-y) * 100%), #9b4be2, #392553 25%) no-repeat 0 0;*/
+    background-color: transparent aliceblue;
+    
+    padding: 2rem;
+    
+}
+
+
+
+
+
+.omMeg-feature {
+
+    display: flex;
+   
+
+}
+
+.omMeg-feature .features-container {
+
+    margin: 0;
+}
+
+.omMeg-feature .features-container-text {
+    max-width: 700px;
+}
+
+.ferdigheter-text{
+    display: flex;
+   
+    flex-wrap:wrap;
+   
+    flex-direction: row;
+    margin-top:2rem;
+
+}
+
+.features-container-text .features-container{
+
+    flex: 1;
+    margin: 1rem;
+    min-width: 210px;
+    display: unset;
+    flex-direction: column;
+}
+
+.ferdigheter-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center ;
+    margin: 4rem 0 2rem;
+
+}
+.ferdigheter-header h1{
+    font-size:50px;
+    line-height: 70px;
+    font-weight: 900;
+    max-width: 800px;
+    font-family: var(--font-primary);
+
+}
+
+.ferdigheter-header p {
+    font-family: var(--font-primary);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    color: var(--color-crimson);
+    cursor:pointer;
+
+}
+
+@media screen and (max-width: 850px) {
+    .ferdigheter-text{
+
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+}

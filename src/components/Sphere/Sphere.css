@@ -1,0 +1,30 @@
+.text-sphere{
+   
+    top:0;
+    width: 0;
+    height:100%;
+    display: inline-block;
+    width:40%;
+    align-items: center;
+    
+
+}
+
+.tagcloud  {
+    display: inline-block;
+    top:100%;
+    left:0%;
+    letter-spacing: 1px;
+    font-family: var(--font-primary);
+    font-weight: bold;
+    font-size: 15px;
+    align-items: center;
+}
+
+
+.tagcloud--item:hover {
+    color: rgb(186, 51, 10);
+    cursor: pointer;
+    font-size:20px;
+   
+}
