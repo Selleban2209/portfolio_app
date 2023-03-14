@@ -1,43 +1,70 @@
+
+
 .header-navbar {
     
-    padding:2rem 4rem;
-    min-height:40px;
+    padding:2rem ;
+    width: 100%;
+    max-height:50px;
     justify-content: space-between;
     align-items: center;
     display: flex;
+    flex-direction:  row;
+    flex-wrap: wrap;
+    position: sticky;
+    top:0;
+    background: rgba(4, 4, 16, 0);
+    z-index: 100;
+    backdrop-filter: blur(50px);
+   /*husk å fjerne elementer med height: for sticky navbar*/
 }
 
 
 .navbar-main-logo{
 
-    font-size: 20px;
+    font-size: 15px;
 
 }
+.nav::before{
+    color: #727376;
+    display: block;
+    font-size: .75rem;
+    width: 100%;
+}
+.nav::after{
+    color: #727376;
+    display: block;
+    font-size: .75rem;
+    width: 100%;
+}
+
 .header-navbar-div {
     flex: 1;
     display: flex;
-    justify-content: flex-start;
-    align-items: center;
+    justify-content: center;
+    top:0;
+
+  
 }
+
 
 .header-menu-list{
     display: flex;
     flex-direction: row;
     list-style-type: none ;
-    justify-content: flex-start;
     align-items: center;
+}
+.navbar-redirect-container {
+    
+    display: flex;
+    justify-content: flex-end;
+    
+    flex-direction: row;
+   align-items: center;
+   box-sizing: border-box;
+   padding:0rem 2rem;
 }
 
 
-.header-navbar-div{
-
-   
-    position: relative;
-    align-items: center;
-    
-    
-
-}
 .header-contacs-img {
     height: 50px;
     width: 50px;
@@ -79,13 +106,6 @@
 }
 
 
-.navbar-redirect-container {
-    
-    display: flex;
-    justify-content: flex-end;
-    flex-direction: row;
-    margin-left: auto;
-}
 
 .navbar-redirect-container p {
     display: flex;
@@ -97,7 +117,7 @@
 .navbar-redirect-container a {
     color:white;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 16px;
     line-height: 25px;
     text-transform: capitalize;
     margin-right: 1rem;

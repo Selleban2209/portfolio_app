@@ -8,7 +8,6 @@ import { MdClose,MdMenu } from "react-icons/md";
 const Menu = () =>(
     <>
     <p><a href="">Home</a></p>
-
     <p><a href="">About me</a></p>
     <p><a href="">Contact me </a></p>
     </>
@@ -21,7 +20,7 @@ const Navbar = () => {
     return ( 
 
         <div className='header-navbar'>
-            <div className='header-navbar-div'>
+            <nav className='header-navbar-div'>
                 <div className='navbar-main-logo'>
                     <a className='header-logo'>PlaceholderLogo</a>
                 </div>
@@ -32,7 +31,7 @@ const Navbar = () => {
                 </div>
 
                             
-            </div>
+            </nav>
 
             <div className='navbar-menu'>
                 {toggleMenu
