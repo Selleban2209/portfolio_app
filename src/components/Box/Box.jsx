@@ -34,7 +34,7 @@ const Cube = () => {
     
             return (
                 <div className='skill-sphere'>
-                        <h1>Languages/Techonoligies i use</h1>
+                        <h1>Languages/Tools i use</h1>
                     <canvas width="500" height="500" id="myCanvas" className='myCanvas'/>
                     <div  className='canvas-container' id="myCanvasContainer">
                     <ul>        
