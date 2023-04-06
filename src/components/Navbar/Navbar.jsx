@@ -9,9 +9,9 @@ const Menu = () =>(
     < >
    
 
-    <p><a href="">Home</a></p>
-    <p><a href="">About me</a></p>
-    <p><a href="">Contact me </a></p>
+    <p><a href="/#">Home</a></p>
+    <p><a href="/#aboutMe">About me</a></p>
+    <p><a href="/#Contacts">Contact me </a></p>
     
     </>
 )

@@ -26,19 +26,19 @@ const Aboutme  = () => {
      // console.log(mousePos.y);
     
     return    (
-    <div className='ferdigheter-container section__margin'>
-        <div className='omMeg-feature'>
-            <Feature title="Om Meg LET GOOOO"  text="it falls apart jad ajda blame!" />
+    <div className='ferdigheter-container section__margin'id="aboutMe" >
+        <div className='omMeg-feature' >
+            <Feature   title="Om Meg LET GOOOO"  text="it falls apart jad ajda blame!" />
 
         </div>
         <div className='ferdigheter-header'>
-            <h1 className='header__text'>Utdanning og ferdigheter  </h1>
+            <h1   className='header__text'>Utdanning og ferdigheter  </h1>
 
 
          
 
         </div>
-        <div className='ferdigheter-text'>
+        <div className='ferdigheter-text'  >
             <Feature title= "UIO Bachelor grad PROSA" text="Jeg har ikke noe å si men jeg må lage masste tekst slik at det har plass " />
             <Feature title= "UIO oslo" text="mer text som jeg trenger for å vise css ferdig da igjen" />
             <Feature title= "UIO oslo" text="bacon ham thaats all they servin stomach hurtin but i aint nervous"/>

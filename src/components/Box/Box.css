@@ -5,10 +5,19 @@
 
 
 }
+.skill-sphere h1 {
+  align-items: left;
+  text-align: center;
+  font-family: var(--font-primary);
+  font-weight: 400;
+  font-size:25px;
+  line-height: 24px;
+  color:#81AFDD; 
+}
 
 .myCanvas {
-  width: 600px;
-  height: 600px;
+  width: 550px;
+  height: 550px;
   font-family: var(--font-primary);
 }
 

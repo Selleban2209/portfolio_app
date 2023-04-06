@@ -1,8 +1,6 @@
 
 .header-section {
-    display: flex;
-    
-    
+    display: flex;    
 }
 
 .header-content-text {
@@ -12,19 +10,16 @@
     align-items: flex-start;
     flex-direction:  column;
     margin-right: 5rem;
-   
 }
 
-
 .header-content-text h1 {
-    font-family: var(--font-family); 
+    font-family: var(--font-primary); 
     font-weight: 900;
-    
+    color: var(--color-purple);
     font-size: 50px;
 }
 
 .header-content-text p {
-
     color:#81AFDD;
     font-size: 20px;
     max-width: 900px;
@@ -53,13 +48,10 @@
 @media screen and (max-width: 600px){
 
     .header-content-text h1 {
-
         font-size: 40px;
     }
 
-
     .header-content-text p {
-
         font-size: 15px;
         max-width: 900px;
     }

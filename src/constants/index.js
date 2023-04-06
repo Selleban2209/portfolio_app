@@ -35,6 +35,6 @@ export const navigation = [
 export const languages = [
     "Java", "Javascript", "Python",
     "React", "C/C++", "Kotlin", "PostgreSQL", 
-    "HTML", "CSS", "TypeScript", "JSON"
+    "HTML", "CSS", "TypeScript", "JSON", "Rust", "Git",
     
 ];

@@ -9,14 +9,10 @@ const App = () =>  {
   return (
     <div className="App">
       <div className='header-gradient'>
-
-
       <Navbar/> 
     <div className='test-align'>
       <Header/>
-      <Cube/>
-         
-
+      <Cube/>   
     </div>
     </div>
       <Aboutme/>

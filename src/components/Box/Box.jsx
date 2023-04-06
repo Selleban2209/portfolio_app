@@ -6,20 +6,21 @@ import { languages } from "../../constants"
 import "./Box.css"
 import $ from 'jquery'
 
-const  Cube = ()=> {
+const Cube = () => {
 
-   
         useEffect(()=>{
             console.log('Loading TagCanvas...');
             const TagCanvas = window.TagCanvas;
             const options = {
                 textFont: 'Manrope',
                 textColour: "#FFFF",
-                outlinMethod : "colour",
-                outlineColour: "#BA330A",
+                outlinMethod : "size",
+                outlineColour: "transparent",
                 reverse: true,
-                outlineIncrease: -10,
+                outlineIncrease: -1,
                 depth: 0.5,
+                wheelZoom: false,
+                zoom:1,
                 maxSpeed: 0.05,
                 weight: true,   
             };
@@ -28,23 +29,18 @@ const  Cube = ()=> {
 
             }catch (e){
                 console.log("canvas error", e);
-
             }
-
         }, [])
-        
-       
+    
             return (
                 <div className='skill-sphere'>
-                
-                    <canvas width="500" height="500" id="myCanvas" className='myCanvas'>
-                        </canvas>
-                <div  className='canvas-container' id="myCanvasContainer">
-                    <ul>
-                    
-                        {languages.map (language =>(
-                            <li><a href=""> {language}</a> </li>
-                            ))}
+                        <h1>Languages/Techonoligies i use</h1>
+                    <canvas width="500" height="500" id="myCanvas" className='myCanvas'/>
+                    <div  className='canvas-container' id="myCanvasContainer">
+                    <ul>        
+                       {languages.map (language =>(
+                           <li><a href=""> {language}</a> </li>
+                           ))}
                     </ul>
                 </div>
         </div>
@@ -53,5 +49,5 @@ const  Cube = ()=> {
          
  }
 
- 
+
  export default  Cube;
