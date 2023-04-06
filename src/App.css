@@ -59,9 +59,25 @@ body {
   padding:2rem;
 }
 
+::-webkit-scrollbar-track {
+  /*background: rgb(4, 4, 16); for transparang scroller bakgrunn*/
+  background: #13161c;
+}
+::-webkit-scrollbar {
+  width: 8px;
+  height:8px;
+}
+::-webkit-scrollbar-corner {
+  background: #13161c;
+}
+::-webkit-scrollbar-thumb {
+background: #555; 
+}
 
-
-
+::-webkit-scrollbar-thumb:hover {
+  
+  background: #888;  
+}
 .text_gradient {
 
     /* ff 3.6+ */
