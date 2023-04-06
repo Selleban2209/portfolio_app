@@ -5,8 +5,9 @@
     position: relative;
    /* background: transparent radial-gradient(at calc(var(--mouse-x) * 100%) calc(var(--mouse-y) * 100%), #9b4be2, #392553 25%) no-repeat 0 0;*/
     background-color: transparent aliceblue;
-    
-    padding: 2rem;
+    top:0;
+    height:10%;
+    padding: 1rem;
     
 }
 

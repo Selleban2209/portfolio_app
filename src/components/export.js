@@ -1,6 +1,6 @@
 import Navbar from "./Navbar/Navbar.jsx"
 import Header from "./Header/Header.jsx"
-import Box from "./Box/Box.jsx"
+import Cube from "./Box/Box.jsx"
 import Sphere from "./Sphere/Sphere.jsx"
 import Aboutme from "./Aboutme/Aboutme.jsx"
 import Feature from "./Feature/Feature.jsx"
@@ -9,7 +9,7 @@ export  {
 
     Navbar,
     Header,
-    Box,
+    Cube,
     Sphere,
     Aboutme,
     Feature,

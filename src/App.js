@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import React from 'react'
-import {Header, Navbar, Box, Sphere, Aboutme, Contacts} from './components/export'
+import {Header, Navbar, Cube, Sphere, Aboutme, Contacts} from './components/export'
 import './index.css';
 
 
@@ -14,7 +14,8 @@ const App = () =>  {
       <Navbar/> 
     <div className='test-align'>
       <Header/>
-      <Sphere/>     
+      <Cube/>
+         
 
     </div>
     </div>

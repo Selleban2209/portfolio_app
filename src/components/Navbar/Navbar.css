@@ -1,27 +1,30 @@
 
 
 .header-navbar {
-    
+    height:fit-content;
     padding:2rem ;
     width: 100%;
     max-height:50px;
     justify-content: space-between;
     align-items: center;
     display: flex;
-    flex-direction:  row;
+    position: fixed;
     flex-wrap: wrap;
-    position: sticky;
     top:0;
-    background: rgba(4, 4, 16, 0);
+    background: rgba(4, 4, 16, 0.764);
     z-index: 100;
-    backdrop-filter: blur(50px);
+    backdrop-filter: blur(3px);
+    background-repeat: no-repeat;
    /*husk å fjerne elementer med height: for sticky navbar*/
 }
 
 
 .navbar-main-logo{
-
+    display: flex;
+    align-self:  left;
     font-size: 15px;
+    
+    
 
 }
 .nav::before{
@@ -56,10 +59,10 @@
 .navbar-redirect-container {
     
     display: flex;
-    justify-content: flex-end;
-    
+    justify-content: space-between;
+
     flex-direction: row;
-   align-items: center;
+
    box-sizing: border-box;
    padding:0rem 2rem;
 }
@@ -107,6 +110,36 @@
 
 
 
+ .navbar-redirect-container a {
+    align-items: center;
+    margin-left: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    /*background-image: radial-gradient(100rem circle at var(--mouse-x) var(--mouse-y),var(--color-lightblue ), rgb(4, 4, 16) 25%);*/
+    border-radius: 4px;
+    border-width:2px;
+    display: flex;
+    height: calc(100% - 0.1rem);
+    border-color: var(--color-lightblue);
+    border-style: solid;
+    
+    height: 2rem;
+    width: 10rem;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    gap:20px 200px ;
+    
+    transition: all .25s;
+ 
+  
+
+    
+}
+
+.navbar
+
+
 .navbar-redirect-container p {
     display: flex;
     justify-content: flex-end;
@@ -133,7 +166,7 @@
 
     color:white;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 10px;
     text-transform: capitalize;
     font-family:var(--font-family);
@@ -147,6 +180,7 @@
 
    position:relative;
    margin-left: 1rem;
+  
    display: none;
 
 }
@@ -156,15 +190,16 @@
     background:  rgba(2,30,73,1);
     display: flex;
     justify-content: flex-end;
-    align-items: flex-end;
+    align-items: center;
     flex-direction: column;
     text-align:end;
     padding:2rem;
     position: absolute;
     top: 15px;
     right:0; 
+    
     margin-top: 1rem;
-    min-width: 150px;
+    min-width: 250px;
     border-radius: 2px;
     box-shadow: 0 0 5 rgba(0,0,0,0.2);
 

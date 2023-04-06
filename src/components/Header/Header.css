@@ -48,3 +48,20 @@
     border:none;
     margin-top: 10px;
 }
+
+
+@media screen and (max-width: 600px){
+
+    .header-content-text h1 {
+
+        font-size: 40px;
+    }
+
+
+    .header-content-text p {
+
+        font-size: 15px;
+        max-width: 900px;
+    }
+    
+}

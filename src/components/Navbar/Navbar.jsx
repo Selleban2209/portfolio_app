@@ -6,10 +6,13 @@ import {contacts } from '../../constants'
 import { MdClose,MdMenu } from "react-icons/md";
 //IoMdClose
 const Menu = () =>(
-    <>
+    < >
+   
+
     <p><a href="">Home</a></p>
     <p><a href="">About me</a></p>
     <p><a href="">Contact me </a></p>
+    
     </>
 )
 
@@ -18,11 +21,12 @@ const Menu = () =>(
 const Navbar = () => {
     const [toggleMenu, setToggleMenu] = useState(false);
     return ( 
+/*<a className='header-logo'>PlaceholderLogo</a>*/
 
         <div className='header-navbar'>
             <nav className='header-navbar-div'>
                 <div className='navbar-main-logo'>
-                    <a className='header-logo'>PlaceholderLogo</a>
+                    
                 </div>
                 <div className='navbar-redirect-container'>
                     <Menu/>

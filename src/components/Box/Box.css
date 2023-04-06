@@ -6,6 +6,17 @@
 
 }
 
+.myCanvas {
+  width: 600px;
+  height: 600px;
+  font-family: var(--font-primary);
+}
+
+.canvas-container a {
+  color:aquamarine;
+ 
+ 
+}
 .test {
 
     min-height: 200px;

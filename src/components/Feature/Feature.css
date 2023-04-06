@@ -1,13 +1,12 @@
 .features-container{
-   max-width:100%;
- 
+   max-width:100%; 
     display: flex;
     justify-content: space-between;
     align-items:flex-start;
     flex-direction: column;
     margin: 0.8rem;
- 
-    
+
+   height:20%;
     border-radius:  4px;
     padding:10px;
     
@@ -17,10 +16,14 @@
 .features-container:hover{
     
     background: radial-gradient(100rem circle at var(--mouse-x) var(--mouse-y),#062349, transparent 20%);
-     background: radial-gradient(1600px circle at 100px 100px, rgba(255, 255, 255, 0.1) transparent 40%);
  
  }
+ .card-wrapper {
+  
 
+  
+    
+}
 
 
 .features-container-title {
@@ -53,7 +56,9 @@
     
 }
 
-
+h1 {
+    letter-spacing: 1px;
+}
 
 
 .features-container-text {

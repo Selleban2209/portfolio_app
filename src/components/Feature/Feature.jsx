@@ -6,7 +6,7 @@ const Feature =  ({title, text}) => (
 
     
 
-    <div className='features-container'>
+    <div className='features-container card-wrapper'>
         <div className='features-container-title'>
             <div/>
             <h1>{title}</h1>

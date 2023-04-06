@@ -39,7 +39,7 @@ const Aboutme  = () => {
 
         </div>
         <div className='ferdigheter-text'>
-            <Feature title= "UIO foslo" text="Jeg har ikke noe å si men jeg må lage masste tekst slik at det har plass " />
+            <Feature title= "UIO Bachelor grad PROSA" text="Jeg har ikke noe å si men jeg må lage masste tekst slik at det har plass " />
             <Feature title= "UIO oslo" text="mer text som jeg trenger for å vise css ferdig da igjen" />
             <Feature title= "UIO oslo" text="bacon ham thaats all they servin stomach hurtin but i aint nervous"/>
           

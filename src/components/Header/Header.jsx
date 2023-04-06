@@ -13,7 +13,7 @@ const Header  = () => {
         <div className='header-section section__padding' id='home'>
             <div className='header-content-text'>
                 <h1 className='gradient_text'>Welcome to <br/>my personal portfolio!  </h1>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                <p>Jeg er en programmerer og studnet innenfor programmering og system arkitektur</p>
 
             <div className='header-content-button'>
                 <button type='button'>Learn more</button>

@@ -6,7 +6,7 @@ const Contacts = () => {
 
     return (
         <div className='contacts-container section__margin header__text'> 
-            <div className='contacts-header '>
+            <div className='contacts-header'>
                 <h1>Contact Me</h1>
 
             </div>
