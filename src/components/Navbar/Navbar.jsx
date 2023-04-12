@@ -26,17 +26,11 @@ const Navbar = () => {
         <div className='header-navbar'>
             <nav className='header-navbar-div'>
                 <div className='navbar-main-logo'>
-                    
                 </div>
                 <div className='navbar-redirect-container'>
                     <Menu/>
-
-
                 </div>
-
-                            
             </nav>
-
             <div className='navbar-menu'>
                 {toggleMenu
                 ? <MdClose color="#fff" size={25} onClick={() => setToggleMenu(false)} />

@@ -5,25 +5,16 @@
     align-items:flex-start;
     flex-direction: column;
     margin: 0.8rem;
-
-   height:20%;
+    height:20%;
     border-radius:  4px;
     padding:10px;
-    
     transition: all .25s;
 
 }
-.features-container:hover{
-    
+.features-container:hover{    
     background: radial-gradient(100rem circle at var(--mouse-x) var(--mouse-y),#062349, transparent 20%);
- 
  }
- .card-wrapper {
-  
 
-  
-    
-}
 
 
 .features-container-title {
@@ -39,7 +30,6 @@
     font-weight: 800;
     font-size: 18px;
     line-height: 24px;
-
     color:white;
  
 }

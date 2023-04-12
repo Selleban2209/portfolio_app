@@ -48,14 +48,14 @@ body {
 }
 
 @media screen and (min-width: 1200px){
-  .test-align {
+  .header-align {
     display: flex;
     flex-direction:column ;
 
   }
 }
 
-.test-align {
+.header-align {
   padding:2rem;
 }
 

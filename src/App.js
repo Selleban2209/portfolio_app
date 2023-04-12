@@ -10,7 +10,7 @@ const App = () =>  {
     <div className="App">
       <div className='header-gradient'>
       <Navbar/> 
-    <div className='test-align'>
+    <div className='header-align'>
       <Header/>
       <Cube/>   
     </div>

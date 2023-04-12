@@ -4,8 +4,6 @@ import './Feature.css'
 
 const Feature =  ({title, text}) => (
 
-    
-
     <div className='features-container card-wrapper'>
         <div className='features-container-title'>
             <div/>

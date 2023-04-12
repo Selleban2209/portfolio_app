@@ -15,9 +15,7 @@ export const contacts = [
         title: "@Selleban2209",
         img: githubImg,
 
-        },
-
-      
+        },     
 
 ];
 
@@ -27,7 +25,6 @@ export const navigation = [
     {
         name:"Home",
         link: " "
-
     }
 
 ];
@@ -35,6 +32,6 @@ export const navigation = [
 export const languages = [
     "Java", "Javascript", "Python",
     "React", "C/C++", "Kotlin", "PostgreSQL", 
-    "HTML", "CSS", "TypeScript", "JSON", "Rust", "Git",
+    "HTML", "CSS", "JSON", "Rust", "Git",
     
 ];

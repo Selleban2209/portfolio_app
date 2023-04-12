@@ -8,16 +8,13 @@
 
 .tagcloud  {
     display: inline-flex;
-    
     top:0;
-   
     letter-spacing: 1px;
     font-family: var(--font-primary);
     font-weight: bold;
     font-size: 15px;
     align-items: center;
-    text-align: center;
-   
+    text-align: center;   
 }
 
 

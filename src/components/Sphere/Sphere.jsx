@@ -19,9 +19,7 @@ const  Spherebox = () => {
                 direction: 75,
                 keep: false,
             };
-            
-            const x =  TagCloud(container, languages, options);
-            
+            const x =  TagCloud(container, languages, options);  
         };
     }, []);
     
@@ -32,8 +30,6 @@ const  Spherebox = () => {
             <span className="tagcloud"   
             ></span>
         </div>
-        
-      
         );
     }
     

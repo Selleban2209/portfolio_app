@@ -1,5 +1,4 @@
 .ferdigheter-container {
-
     display: flex;
     flex-direction: column;
     position: relative;
@@ -12,18 +11,12 @@
 }
 
 
-
-
-
 .omMeg-feature {
     max-width: 400px;
     display: flex;
-   
-
 }
 
 .omMeg-feature .features-container {
-
     margin: 0;
 }
 
@@ -42,7 +35,6 @@
 }
 
 .features-container-text .features-container{
-
     flex: 1;
     margin: 1rem;
     min-width: 210px;
