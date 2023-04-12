@@ -28,7 +28,7 @@ const Aboutme  = () => {
     return    (
     <div className='ferdigheter-container section__margin'id="aboutMe" >
         <div className='omMeg-feature' >
-            <Feature   title="Om Meg LET GOOOO"  text="it falls apart jad ajda blame!" />
+            <Feature   title="Om meg "  text="Hei! Jeg heter Selleban og er en 22 år gammel student og programmerer. Jeg er veldig interessert i å programmere og programmere ofte av egne grunner i fritden utenom studier. Andre Hobbier inkluderer trening, gaming og skating.   " />
 
         </div>
         <div className='ferdigheter-header'>

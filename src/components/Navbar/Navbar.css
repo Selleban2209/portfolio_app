@@ -85,10 +85,6 @@
     background:  rgba(2,30,73,1);
     flex-direction: column;
     list-style-type: none;
- 
- 
-    
-   
     position:absolute;
     top:30px; 
     right: 0;
@@ -163,7 +159,7 @@
 }
 
 .navbar-menu-container-redirects a {
-
+    
     color:white;
     font-weight: 400;
     font-size: 18px;
@@ -173,9 +169,13 @@
     align-items: end;
     cursor: pointer;
     text-decoration: none;
-
+    
 }
 
+.navbar-menu-container-redirects a:hover{
+    font-size: 19px;
+    color:var(--color-lightblue);
+}
 .navbar-menu {
 
    position:relative;
@@ -192,15 +192,14 @@
     justify-content: flex-end;
     align-items: center;
     flex-direction: column;
-    text-align:end;
-    padding:2rem;
+    text-align:start;
+    padding:1.5rem;
     position: absolute;
     top: 15px;
     right:0; 
-    
-    margin-top: 1rem;
+    margin-top: 12px;
     min-width: 250px;
-    border-radius: 2px;
+    border-radius: 5px;
     box-shadow: 0 0 5 rgba(0,0,0,0.2);
 
 }

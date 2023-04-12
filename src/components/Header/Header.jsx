@@ -14,10 +14,8 @@ const Header  = () => {
             <div className='header-content-text'>
                 <h1 className='gradient_text'>Welcome to <br/>my personal portfolio!  </h1>
                 <p>Jeg er en programmerer og studnet innenfor programmering og system arkitektur</p>
-
             <div className='header-content-button'>
                 <button type='button'>Learn more</button>
-
             </div>
             </div>
             
