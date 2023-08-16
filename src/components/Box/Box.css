@@ -29,3 +29,19 @@
     min-height: 200px;
     position: absolute;
 }
+
+.skill-box{
+  display: none;
+}
+
+
+@media screen and (max-width: 900px){
+    
+  .skill-box{
+      display:flex;
+  }
+ 
+  
+  
+
+}

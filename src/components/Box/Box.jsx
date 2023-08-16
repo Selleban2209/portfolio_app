@@ -41,6 +41,11 @@ const Cube = () => {
                 <li><a href=""> {language}</a> </li>
                 ))}
             </ul>
+
+
+        </div>
+        <div className="skill-box">
+                placeholder
         </div>
     </div>
       
